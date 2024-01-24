@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif ;
+}
+body{
+    background: #fff url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
+}
+/* start head */
+#head{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+.head-1{
+    position:relative;
+    height: 10vh;
+    width: 100%;
+    margin: 2px;
+    background-color: #fafafa;
+    text-align: center;
+    box-shadow: 2px 2px 5px #090909;
+}
+.head-1 img{
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    height: 9vh;
+    cursor: pointer;
+    box-shadow: 2px 3px #f2ebeb;
+}
+.img-1{
+    background-color: #fff;
+    height: 100%;
+}
+/* close head */
+ 
+/* start navbar */
+
+nav{
+    display: flex;
+    background-color: #ffffff;
+    position: sticky;
+    top: 10px;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-1{
+    height: 15vh;
+    width: 120px;
+    display: flex;
+    background-color: grey;
+    text-align: center;
+    justify-content: center ;
+    border-radius: 3px;
+    align-items: center;
+}
+.l-2{
+    height: 15vh;
+    width: 100px;
+    display: flex;
+    background-color: #f0efef;
+    text-align: center;
+    justify-content: center ;
+    border-radius: 3px;
+    align-items: center;
+}
+.l-3{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    background-color: #f0efef;
+    text-align: center;
+    justify-content: center ;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+
+
+
+
